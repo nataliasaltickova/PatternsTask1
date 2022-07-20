@@ -10,7 +10,7 @@ build: off  # будем использовать свой скрипт сбор
 
 install:
   # запускаем SUT (& означает, что в фоновом режиме - не блокируем терминал для запуска тестов)
-  - java -jar ./artifacts/app-card-delivery(1).jar &
+  - java -jar ./app-card-delivery\ \(1\).jar  &
 
 build_script:
 
